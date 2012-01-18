@@ -14,10 +14,10 @@
 /* Begin PBXFileReference section */
 		ACEAC03714C64FAE0058E6BB /* DavidKernel.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DavidKernel.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEAC03B14C64FAE0058E6BB /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
-		ACEAC03E14C64FAE0058E6BB /* DavidKernel-Info.plist */ = {isa = PBXFileReference; path = "DavidKernel-Info.plist"; sourceTree = "<group>"; };
+		ACEAC03E14C64FAE0058E6BB /* DavidKernel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DavidKernel-Info.plist"; sourceTree = "<group>"; };
 		ACEAC04014C64FAE0058E6BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ACEAC04214C64FAE0058E6BB /* DavidKernel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DavidKernel.c; sourceTree = "<group>"; };
-		ACEAC04414C64FAE0058E6BB /* DavidKernel-Prefix.pch */ = {isa = PBXFileReference; path = "DavidKernel-Prefix.pch"; sourceTree = "<group>"; };
+		ACEAC04414C64FAE0058E6BB /* DavidKernel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DavidKernel-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
