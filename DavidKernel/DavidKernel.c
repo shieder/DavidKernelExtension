@@ -7,6 +7,7 @@
 //
 
 #include <mach/mach_types.h>
+#include <sys/systm.h>
 
 kern_return_t DavidKernel_start(kmod_info_t * ki, void *d);
 kern_return_t DavidKernel_stop(kmod_info_t *ki, void *d);
