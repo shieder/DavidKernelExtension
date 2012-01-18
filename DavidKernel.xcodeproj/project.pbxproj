@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACEAC04114C64FAE0058E6BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACEAC03F14C64FAE0058E6BB /* InfoPlist.strings */; };
+		ACEAC04314C64FAE0058E6BB /* DavidKernel.c in Sources */ = {isa = PBXBuildFile; fileRef = ACEAC04214C64FAE0058E6BB /* DavidKernel.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACEAC03714C64FAE0058E6BB /* DavidKernel.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DavidKernel.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEAC03B14C64FAE0058E6BB /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		ACEAC03E14C64FAE0058E6BB /* DavidKernel-Info.plist */ = {isa = PBXFileReference; path = "DavidKernel-Info.plist"; sourceTree = "<group>"; };
+		ACEAC04014C64FAE0058E6BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACEAC04214C64FAE0058E6BB /* DavidKernel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DavidKernel.c; sourceTree = "<group>"; };
+		ACEAC04414C64FAE0058E6BB /* DavidKernel-Prefix.pch */ = {isa = PBXFileReference; path = "DavidKernel-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACEAC03214C64FAE0058E6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACEAC02A14C64FAE0058E6BB = {
+			isa = PBXGroup;
+			children = (
+				ACEAC03C14C64FAE0058E6BB /* DavidKernel */,
+				ACEAC03914C64FAE0058E6BB /* Frameworks */,
+				ACEAC03814C64FAE0058E6BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACEAC03814C64FAE0058E6BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACEAC03714C64FAE0058E6BB /* DavidKernel.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACEAC03914C64FAE0058E6BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACEAC03A14C64FAE0058E6BB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACEAC03A14C64FAE0058E6BB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACEAC03B14C64FAE0058E6BB /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ACEAC03C14C64FAE0058E6BB /* DavidKernel */ = {
+			isa = PBXGroup;
+			children = (
+				ACEAC04214C64FAE0058E6BB /* DavidKernel.c */,
+				ACEAC03D14C64FAE0058E6BB /* Supporting Files */,
+			);
+			path = DavidKernel;
+			sourceTree = "<group>";
+		};
+		ACEAC03D14C64FAE0058E6BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACEAC03E14C64FAE0058E6BB /* DavidKernel-Info.plist */,
+				ACEAC03F14C64FAE0058E6BB /* InfoPlist.strings */,
+				ACEAC04414C64FAE0058E6BB /* DavidKernel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ACEAC03314C64FAE0058E6BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ACEAC03614C64FAE0058E6BB /* DavidKernel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEAC04714C64FAE0058E6BB /* Build configuration list for PBXNativeTarget "DavidKernel" */;
+			buildPhases = (
+				ACEAC03114C64FAE0058E6BB /* Sources */,
+				ACEAC03214C64FAE0058E6BB /* Frameworks */,
+				ACEAC03314C64FAE0058E6BB /* Headers */,
+				ACEAC03414C64FAE0058E6BB /* Resources */,
+				ACEAC03514C64FAE0058E6BB /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DavidKernel;
+			productName = DavidKernel;
+			productReference = ACEAC03714C64FAE0058E6BB /* DavidKernel.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACEAC02C14C64FAE0058E6BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = ACEAC02F14C64FAE0058E6BB /* Build configuration list for PBXProject "DavidKernel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACEAC02A14C64FAE0058E6BB;
+			productRefGroup = ACEAC03814C64FAE0058E6BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACEAC03614C64FAE0058E6BB /* DavidKernel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACEAC03414C64FAE0058E6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEAC04114C64FAE0058E6BB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		ACEAC03514C64FAE0058E6BB /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACEAC03114C64FAE0058E6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEAC04314C64FAE0058E6BB /* DavidKernel.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACEAC03F14C64FAE0058E6BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEAC04014C64FAE0058E6BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACEAC04514C64FAE0058E6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ACEAC04614C64FAE0058E6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ACEAC04814C64FAE0058E6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DavidKernel/DavidKernel-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "DavidKernel/DavidKernel-Info.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.david.DavidKernel;
+				MODULE_START = DavidKernel_start;
+				MODULE_STOP = DavidKernel_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		ACEAC04914C64FAE0058E6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DavidKernel/DavidKernel-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "DavidKernel/DavidKernel-Info.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.david.DavidKernel;
+				MODULE_START = DavidKernel_start;
+				MODULE_STOP = DavidKernel_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACEAC02F14C64FAE0058E6BB /* Build configuration list for PBXProject "DavidKernel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEAC04514C64FAE0058E6BB /* Debug */,
+				ACEAC04614C64FAE0058E6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEAC04714C64FAE0058E6BB /* Build configuration list for PBXNativeTarget "DavidKernel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEAC04814C64FAE0058E6BB /* Debug */,
+				ACEAC04914C64FAE0058E6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACEAC02C14C64FAE0058E6BB /* Project object */;
+}
