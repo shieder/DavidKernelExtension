@@ -16,6 +16,7 @@ kern_return_t DavidKernel_start(kmod_info_t * ki, void *d)
 {
     printf("I'm David Kernel\n");
     printf("Why Not!!!\n");
+    printf("mmmmmm\n");
     return KERN_SUCCESS;
 }
 
