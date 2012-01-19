@@ -47,13 +47,19 @@ static struct cdevsw david_cdevsw =
 //davidkernel device 로 IOCTL 쿼리시 호출
 static int david_ioctl(dev_t dev, u_long cmd, caddr_t data, int flag, struct proc *p)
 {
-    char string[1024];
+    char string[1024] = {0};
+    
     printf("[+] entering david ioctl\n");
     printf("[+] command : 0x%x\n", cmd);
     printf("[+] data address : %p\n", p);
     printf("[+] copy string to kernel...\n");
     
-    sprintf(string, "%s\n", data);
+    if(copyin((void*)data, (void*)string, sizeof(string)) == -1)
+    {
+        printf("[+] copy user data to kernel failed!!\n");
+        return KERN_FAILURE;
+    }
+
     printf("[+] result : %s\n", string);
     
     return 0;
